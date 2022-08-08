@@ -13,6 +13,6 @@ class Webhook
   {
     $compute = \hash_hmac('sha256', $payload, $secret);
 
-    return Utils::hashEqual($sigHeader, $secret);
+    return Utils::hashEqual($sigHeader, $compute);
   }
 }
