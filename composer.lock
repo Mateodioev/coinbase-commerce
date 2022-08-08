@@ -1,0 +1,89 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "fd74076008c98d3cf3e67c97305ad50a",
+    "packages": [
+        {
+            "name": "mateodioev/request",
+            "version": "v2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Mateodioev/request.git",
+                "reference": "704fc04345432ca286bf8424cd1bd914ef979246"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Mateodioev/request/zipball/704fc04345432ca286bf8424cd1bd914ef979246",
+                "reference": "704fc04345432ca286bf8424cd1bd914ef979246",
+                "shasum": ""
+            },
+            "require": {
+                "mateodioev/utils": "^1.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mateodioev\\Request\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mateodioev"
+                }
+            ],
+            "description": "Easy curl",
+            "support": {
+                "issues": "https://github.com/Mateodioev/request/issues",
+                "source": "https://github.com/Mateodioev/request/tree/v2.0"
+            },
+            "time": "2022-07-27T17:13:06+00:00"
+        },
+        {
+            "name": "mateodioev/utils",
+            "version": "v1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Mateodioev/php-utils.git",
+                "reference": "3cb504438059a7b4450c60f45695a30dfae2cecb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Mateodioev/php-utils/zipball/3cb504438059a7b4450c60f45695a30dfae2cecb",
+                "reference": "3cb504438059a7b4450c60f45695a30dfae2cecb",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mateodioev\\Utils\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Php utils",
+            "support": {
+                "issues": "https://github.com/Mateodioev/php-utils/issues",
+                "source": "https://github.com/Mateodioev/php-utils/tree/v1.3"
+            },
+            "time": "2022-07-07T20:03:48+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}

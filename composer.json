@@ -1,0 +1,20 @@
+{
+    "name": "mateodioev/coinbase-commerce",
+    "description": "Coinbase commerce api",
+    "type": "library",
+    "require": {
+        "mateodioev/request": "^2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mateodioev\\CoinbaseCommerce\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mateodioev",
+            "email": "orehurcomito@gmail.com"
+        }
+    ]
+}
