@@ -10,11 +10,5 @@
         "psr-4": {
             "Mateodioev\\CoinbaseCommerce\\": "src/"
         }
-    },
-    "authors": [
-        {
-            "name": "Mateodioev",
-            "email": "orehurcomito@gmail.com"
-        }
-    ]
+    }
 }
