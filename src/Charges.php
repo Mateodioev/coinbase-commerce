@@ -62,7 +62,7 @@ class Charges
   public function cancel(string $chargeId)
   {
     return Client::getInstance()
-      ->makeRequest('/charges/' . $chargeId . '/cancel ', method: 'POST');
+      ->makeRequest('/charges/' . $chargeId . '/cancel', method: 'POST');
   }
 
   /**
